@@ -55,7 +55,7 @@ console.log(result)
 
 Or you can use these clients as **LLM-based tools**. Here's an example using [Vercel's AI SDK](https://github.com/vercel/ai):
 
-```ts
+``` ts
 // sdk-specific imports
 import { openai } from '@ai-sdk/openai'
 import { generateText } from 'ai'
@@ -83,7 +83,7 @@ You can use our standard library of thoroughly tested AI functions with your fav
 
 All adapters (like `createAISDKTools`) accept a very flexible var args of `AIFunctionLike` parameters, so you can pass as many tools as you'd like.
 
-They also expose a `.functions` property which is an `AIFunctionSet`. This combination makes it really easy to mix & match different tools together.
+They also expose a `.functions` property, which is an `AIFunctionSet`. This combination makes it really easy to mix & match different tools together.
 
 ```ts
 import { SerperClient, WikipediaClient, FirecrawlClient } from '@agentic/stdlib'
