@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <em>AI agent stdlib that works with any LLM and TypeScript AI SDK.</em>
+  <em>AI agent stdlib that works with any LLM and TypeScript AI SDK </em>
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@
 
 ## Intro
 
-Agentic is a **standard library of AI functions / tools** which are **optimized for both normal TS-usage as well as LLM-based usage**. Agentic works with all of the major TS AI SDKs (Vercel AI SDK, Mastra, LangChain, LlamaIndex, OpenAI SDK, MCP, etc).
+Agentic is a **standard library of AI functions and tools** that are **optimized for both normal TS usage and LLM-based usage**. Agentic works with all of the major TS AI SDKs (Vercel AI SDK, Mastra, LangChain, LlamaIndex, OpenAI SDK, MCP, etc).
 
 Agentic clients like `WeatherClient` can be used as normal TS classes:
 
