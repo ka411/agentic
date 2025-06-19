@@ -114,7 +114,7 @@ const result = await generateText({
     })
   ),
   prompt:
-    'What year did Jurassic Park the movie come out, and what else happened that year?'
+    'What year did Jurassic Park the movie, come out, and what else happened that year?'
 })
 ```
 
